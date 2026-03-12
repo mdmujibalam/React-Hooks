@@ -3,6 +3,7 @@ import UseReducer from './hooks/inBuiltHooksExplanationWithExample/UseReducer'
 import UseRef from './hooks/inBuiltHooksExplanationWithExample/UseRef'
 import UseImperativeParent from './hooks/inBuiltHooksExplanationWithExample/UseImperativeParent'
 import UseActionState from './hooks/inBuiltHooksExplanationWithExample/UseActionState'
+import UsePreviousWrapper from './components/usePreviousWrapper'
 
 const App = () => {
   return (
@@ -10,7 +11,8 @@ const App = () => {
       {/* <UseReducer/> */}
       {/* <UseRef/> */}
       {/* <UseImperativeParent/> */}
-      <UseActionState/>
+      {/* <UseActionState/> */}
+      <UsePreviousWrapper/>
     </div>
   )
 }
