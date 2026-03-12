@@ -4,6 +4,7 @@ import UseRef from './hooks/inBuiltHooksExplanationWithExample/UseRef'
 import UseImperativeParent from './hooks/inBuiltHooksExplanationWithExample/UseImperativeParent'
 import UseActionState from './hooks/inBuiltHooksExplanationWithExample/UseActionState'
 import UsePreviousWrapper from './components/usePreviousWrapper'
+import UseFetchWrapper from './components/UseFetchWrapper'
 
 const App = () => {
   return (
@@ -12,7 +13,8 @@ const App = () => {
       {/* <UseRef/> */}
       {/* <UseImperativeParent/> */}
       {/* <UseActionState/> */}
-      <UsePreviousWrapper/>
+      {/* <UsePreviousWrapper/> */}
+      <UseFetchWrapper/>
     </div>
   )
 }
