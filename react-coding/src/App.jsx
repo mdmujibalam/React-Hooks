@@ -5,6 +5,7 @@ import UseImperativeParent from './hooks/inBuiltHooksExplanationWithExample/UseI
 import UseActionState from './hooks/inBuiltHooksExplanationWithExample/UseActionState'
 import UsePreviousWrapper from './components/usePreviousWrapper'
 import UseFetchWrapper from './components/UseFetchWrapper'
+import UseDebounceWrapper from './components/UseDebounceWrapper'
 
 const App = () => {
   return (
@@ -14,7 +15,8 @@ const App = () => {
       {/* <UseImperativeParent/> */}
       {/* <UseActionState/> */}
       {/* <UsePreviousWrapper/> */}
-      <UseFetchWrapper/>
+      {/* <UseFetchWrapper/> */}
+      <UseDebounceWrapper/>
     </div>
   )
 }
