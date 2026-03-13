@@ -14,7 +14,7 @@ const useFetch = (url) => {
       const result = await res.json();
       setData(result.products);
     } catch (err) {
-      setError(true);
+      setError(err);
     } finally {
       setIsLoading(false);
     }
