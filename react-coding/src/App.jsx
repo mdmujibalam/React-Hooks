@@ -6,6 +6,7 @@ import UseActionState from './hooks/inBuiltHooksExplanationWithExample/UseAction
 import UsePreviousWrapper from './components/usePreviousWrapper'
 import UseFetchWrapper from './components/UseFetchWrapper'
 import UseDebounceWrapper from './components/UseDebounceWrapper'
+import UseThrottleWrapper from './components/UseThrottleWrapper'
 
 const App = () => {
   return (
@@ -16,7 +17,8 @@ const App = () => {
       {/* <UseActionState/> */}
       {/* <UsePreviousWrapper/> */}
       {/* <UseFetchWrapper/> */}
-      <UseDebounceWrapper/>
+      {/* <UseDebounceWrapper/> */}
+      <UseThrottleWrapper/>
     </div>
   )
 }
