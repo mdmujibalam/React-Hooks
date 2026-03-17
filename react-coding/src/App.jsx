@@ -7,6 +7,7 @@ import UsePreviousWrapper from './components/usePreviousWrapper'
 import UseFetchWrapper from './components/UseFetchWrapper'
 import UseDebounceWrapper from './components/UseDebounceWrapper'
 import UseThrottleWrapper from './components/UseThrottleWrapper'
+import UseClickOutside from './hooks/inBuiltHooksExplanationWithExample/UseClickOutside'
 
 const App = () => {
   return (
@@ -18,7 +19,8 @@ const App = () => {
       {/* <UsePreviousWrapper/> */}
       {/* <UseFetchWrapper/> */}
       {/* <UseDebounceWrapper/> */}
-      <UseThrottleWrapper/>
+      {/* <UseThrottleWrapper/> */}
+      <UseClickOutside/>
     </div>
   )
 }
